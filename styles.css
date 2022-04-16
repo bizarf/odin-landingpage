@@ -1,0 +1,191 @@
+/* * {
+    border-style: solid;
+    border-color: blue;
+} */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    background-color: #CC9966;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.header,
+.hero,
+.information,
+.quote,
+.call-to-action,
+.footer {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-secondary-text,
+a,
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero-main-text,
+.header-logo {
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+button,
+.call-to-action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 30px;
+    font-weight: 800;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 5% 20% 5% 20%;
+}
+
+.information-header,
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.information-header {
+    font-weight: 800;
+    padding: 24px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.hero-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+img.hero-image {
+    width: 0px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.information-container,
+.information-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.hero-image img {
+    max-width: 300px;
+}
+
+.information-item img {
+    max-width: 200px;
+    border-color: #3882F6;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.information-item {
+    padding: 16px;
+}
+
+.quote-name {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.call-to-action-button {
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 68px auto 68px auto;
+    width: 70%;
+    padding: 40px 00px;
+}
+
+.information-container {
+    border-radius: 8px;
+}
+
+.call-to-action-header {
+    font-size: 20px;
+    font-weight: 800;
+}
