@@ -1,5 +1,4 @@
-# odin-landingpage
-Project: Landing Page
+# The Odin Project - Project: Landing Page
 
 This is the second HTML project from the Foundations course on The Odin Project. The goal of this project is to create a landing page based on a screenshot that they have provided. The goal is to demonstrate an understand of CSS and usage of Flexbox. 
 
